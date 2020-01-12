@@ -12,6 +12,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 #load data
+#it is the path to my own home directory, you can change to your own
 data_path = r"/home/kseniia/Pictures/"
 data_dir_list = os.listdir(data_path)
 img_data_list = []
