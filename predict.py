@@ -12,8 +12,9 @@ import matplotlib.pyplot as plt
 from keras.models import load_model
 
 
-
+# loading the model
 model = load_model('model_v1.h5')
+# you can test with any other picture 
 img_path = 'c12.png'
 img = image.load_img(img_path, target_size=(224, 224))
 x = image.img_to_array(img)
