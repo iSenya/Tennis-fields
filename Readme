@@ -1,0 +1,4 @@
+This is a classical classification task using a pre-trained VGG-16 model.
+I cannot upload the training dataset here, because it is a bulky folder with pictures from satellites. You can contact me, I can upload it somewhere you prefer.
+The model you can use for detecting an object on a given picture.
+I trained the model on photos of Earth's surface with and without a tennis court on it. It classifies with 99% accuracy.
